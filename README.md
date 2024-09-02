@@ -42,6 +42,10 @@
 
 无论是直接用localhost还是部署出网页，都不能够直接用钱包mint nft，具体报错是
 ![alt text](<截屏2024-09-02 18.37.21.png>)
+```
+Fail to create
+{"code":-32005,"message":"rate limit exceeded"}
+```
 
 一开始认为是 RPC 封禁了，换了另外两个 Alchemy 的 RPC 仍然失败，再次切换 Infura 的 RPC 依旧无法 mint。
 
