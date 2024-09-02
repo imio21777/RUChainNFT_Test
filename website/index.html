@@ -4,11 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>连接钱包示例</title>
+    <title>Demo for RUChain NFT</title>
 </head>
 
 <body>
-    <button id="connectWalletButton">连接钱包</button>
+    <button id="connectWalletButton">Connect Wallet</button>
+    <select id="networkSelect">
+        <option value="sepolia">Sepolia Testnet</option>
+        <option value="mainnet">Ethereum Mainnet</option>
+    </select>
+    <button id="switchNetworkButton">Switch Network</button>
+    <button id="mintNFTButton">Mint NFT</button>
     <p id="walletAddress"></p>
 
     <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>

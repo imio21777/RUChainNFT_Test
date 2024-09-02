@@ -1,0 +1,6 @@
+console.log(ethers.utils.formatEther(balance), "ETH");
+const balance = await ethers.provider.getBalance("你的账户地址");
+console.log(ethers.utils.formatEther(balance), "ETH");
+const balance = await ethers.provider.getBalance("你的账户地址");
+console.log(ethers.utils.formatEther(balance),"ETH");
+const balance = await ethers.provider.getBalance("account");

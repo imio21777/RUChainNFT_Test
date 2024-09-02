@@ -1,11 +1,11 @@
 {
     "attributes": [
         {
-            "trait_type": "QR Code",
+            "trait_type": "QRCode",
             "value": "0"
         }
     ],
     "description": "RUChain Wechat Account QR Code",
     "image": "https://lime-far-lizard-157.mypinata.cloud/ipfs/QmWvZFaN6uKQm3oShowxg3Wq86eqD4hDid2CHhj71CoPEx",
-    "name": "RUChainWechatQRCode"
+    "name": "Ruchain"
 }
