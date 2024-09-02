@@ -54,7 +54,7 @@ async function switchNetwork() {
             case 'sepolia':
                 chainId = '0xAA36A7';
                 chainName = 'Sepolia Test Network';
-                rpcUrl = 'https://sepolia.g.alchemy.com/v2/rsO2Ya7gLnkkgHqMxcco8gZ5QTj7wS3f';
+                rpcUrl = 'https://sepolia.infura.io/v3/174e1f5320264b4592d6d275b89ae1fd';
                 nativeCurrency = {
                     name: 'Sepolia ETH',
                     symbol: 'ETH',
@@ -65,7 +65,7 @@ async function switchNetwork() {
             case 'mainnet':
                 chainId = '0x1';
                 chainName = 'Ethereum Mainnet';
-                rpcUrl = 'https://eth-mainnet.g.alchemy.com/v2/rsO2Ya7gLnkkgHqMxcco8gZ5QTj7wS3f';
+                rpcUrl = 'https://mainnet.infura.io/v3/174e1f5320264b4592d6d275b89ae1fd';
                 nativeCurrency = {
                     name: 'Ethereum',
                     symbol: 'ETH',
